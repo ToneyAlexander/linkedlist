@@ -1,0 +1,19 @@
+all: board
+
+board: main.o Entity.o Player.o Tile.o
+	g++ main.o Entity.o Player.o Tile.o -o board
+
+main.o: main.cpp
+	g++ -c main.cpp
+
+Entity.o: Entity.cpp
+	g++ -c Entity.cpp
+
+Player.o: Player.cpp
+	g++ -c Player.cpp
+
+Tile.o: Tile.cpp
+	g++ -c Tile.cpp
+
+clean:
+	rm *o board

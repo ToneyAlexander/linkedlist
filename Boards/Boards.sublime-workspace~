@@ -1,0 +1,586 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"displayB",
+				"displayBoardDFS"
+			],
+			[
+				"h",
+				"h"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"be",
+				"below"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"a",
+				"above"
+			],
+			[
+				"o",
+				"o"
+			],
+			[
+				"v",
+				"void"
+			],
+			[
+				"set",
+				"setTile"
+			],
+			[
+				"max",
+				"max_index"
+			],
+			[
+				"d",
+				"do	Do While Loop"
+			],
+			[
+				"c",
+				"c"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"i",
+				"if	If Condition"
+			],
+			[
+				"yellow",
+				"yellow"
+			],
+			[
+				"green",
+				"green"
+			],
+			[
+				"su",
+				"surfaceA"
+			],
+			[
+				"av",
+				"avgRad"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"speed",
+				"speed"
+			],
+			[
+				"biking",
+				"biking"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Player.cpp",
+			"settings":
+			{
+				"buffer_size": 548,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main.cpp",
+			"settings":
+			{
+				"buffer_size": 3133,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Player.h",
+			"settings":
+			{
+				"buffer_size": 190,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Entity.cpp",
+			"settings":
+			{
+				"buffer_size": 295,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Entity.h",
+			"settings":
+			{
+				"buffer_size": 291,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#include \"Tile.h\"\n#include \"Entity.h\"\n\nTile::Tile():above(0), below(0), right(0), left(0), ent(0)\n, symbol('_'){\n}\nchar Tile::toCha(){\n	if(ent){\n		return ent->symbol;\n	}else{\n		return symbol;\n	}\n}\nvoid Tile::setEntity(Entity *e){\n	ent = e;\n}\nvoid Tile::update(){\n	if(!ent)\n}",
+			"file": "Tile.cpp",
+			"file_size": 256,
+			"file_write_time": 1465965757000000,
+			"settings":
+			{
+				"buffer_size": 274,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "SDL/01_hello_SDL/01_hello_SDL.cpp",
+			"settings":
+			{
+				"buffer_size": 1309,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Tile.h",
+			"settings":
+			{
+				"buffer_size": 235,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/media/alexander/Data/Common/Google Drive/College/Foundations 1/sdfsd/lab1.cpp",
+		"/media/alexander/Data/Common/Google Drive/College/Foundations 1/Lab 1.cpp",
+		"/home/alexander/Desktop/hw33.java",
+		"/home/alexander/Desktop/SrtTrail.txt",
+		"/home/alexander/Boards/main.cpp",
+		"/home/alexander/Boards/Player.h",
+		"/home/alexander/Boards/Tile.cpp",
+		"/home/alexander/Boards/Tile.h",
+		"/home/alexander/Boards/Player.cpp",
+		"/home/alexander/Boards/game.cpp",
+		"/home/alexander/Desktop/game.cpp",
+		"/home/alexander/engr/Done/colortest.cpp",
+		"/home/alexander/Desktop/Leap/LeapSDK/samples/Sample.cpp",
+		"/home/alexander/Desktop/Leap/LeapSDK/samples/opengl.cpp",
+		"/home/alexander/Desktop/Leap/LeapSDK/samples/open.c",
+		"/home/alexander/Desktop/LeapDeveloperKit_2.3.1+31549_linux/LeapSDK/samples/Sample.cpp",
+		"/home/alexander/Downloads/LeapDeveloperKit_2.3.1+31549_linux/LeapSDK/samples/Sample.cpp",
+		"/home/alexander/engr/Done/EWA10.cpp",
+		"/home/alexander/engr/EWA10.cpp",
+		"/home/alexander/engr/Done/EWA09.cpp",
+		"/home/alexander/engr/EWA09_results.txt",
+		"/home/alexander/engr/EWA08.cpp",
+		"/home/alexander/engr/APP_B37_1.cpp",
+		"/home/alexander/engr/37.txt",
+		"/home/alexander/engr/EWA09.cpp",
+		"/home/alexander/engr/Done/APP_B36_Extension.cpp",
+		"/home/alexander/engr/Done/APP_B36_1.cpp",
+		"/home/alexander/engr/APP_B36_Extension.cpp",
+		"/home/alexander/engr/36_1.txt",
+		"/home/alexander/engr/APP_B36_1.cpp",
+		"/home/alexander/engr/APP_B35_1.cpp",
+		"/home/alexander/engr/triangle.dat",
+		"/home/alexander/engr/APP_B31_1.cpp",
+		"/home/alexander/engr/APP_B34_1.cpp",
+		"/home/alexander/engr/Done/APP_B33_1.cpp",
+		"/home/alexander/engr/APP_B33_1.cpp",
+		"/home/alexander/engr/Done/APP_B32_Extension.cpp",
+		"/home/alexander/engr/APP_B32_Extension.cpp",
+		"/home/alexander/engr/EWA07.cpp",
+		"/home/alexander/engr/colortest.cpp",
+		"/home/alexander/engr/APP_B30_1.cpp",
+		"/home/alexander/engr/APP-B29-1.cpp",
+		"/home/alexander/engr/EWA6.cpp",
+		"/home/alexander/engr/APP_B28_1.cpp",
+		"/home/alexander/engr/asdf.cpp",
+		"/home/alexander/engr/APP_B28_1_mod.cpp",
+		"/home/alexander/engr/template.cpp",
+		"/home/alexander/engr/EWA5.cpp",
+		"/home/alexander/engr/EWA05.cpp",
+		"/home/alexander/engr/Done/APP_26_1.cpp",
+		"/home/alexander/engr/Done/APP_B26_Extension.cpp",
+		"/home/alexander/engr/APP_B26_Extension.cpp",
+		"/home/alexander/engr/APP_26_1.cpp",
+		"/sys/devices/pci0000:00/0000:00:02.0/drm/card0/card0-eDP-1/intel_backlight/brightness",
+		"/home/alexander/engr/Done/APP_B24_1.cpp",
+		"/home/alexander/engr/APP_B25_1.cpp",
+		"/home/alexander/engr/APP_B23_2.cpp",
+		"/home/alexander/engr/APP_B23_1.cpp",
+		"/home/alexander/engr/APP_B24_1.cpp"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Player",
+			"std",
+			"std::",
+			"out",
+			"30",
+			"void show()",
+			"void calc",
+			"void set()",
+			"un",
+			"shapes[2]",
+			"shapes[1]",
+			"shapes[0]",
+			"//Solid::Solid();",
+			"//Solid:Solid",
+			"name[]",
+			"Solid::Solid",
+			".disp",
+			");\n",
+			"(&",
+			"sph.",
+			"o->",
+			"*v[",
+			"*v",
+			" (",
+			"');\n",
+			"\");\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Player.cpp",
+					"settings":
+					{
+						"buffer_size": 548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								177,
+								177
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main.cpp",
+					"settings":
+					{
+						"buffer_size": 3133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1141,
+								1141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 912.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Player.h",
+					"settings":
+					{
+						"buffer_size": 190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								35
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Entity.cpp",
+					"settings":
+					{
+						"buffer_size": 295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								200,
+								200
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Entity.h",
+					"settings":
+					{
+						"buffer_size": 291,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								264,
+								264
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Tile.cpp",
+					"settings":
+					{
+						"buffer_size": 274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								272,
+								272
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "SDL/01_hello_SDL/01_hello_SDL.cpp",
+					"settings":
+					{
+						"buffer_size": 1309,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Tile.h",
+					"settings":
+					{
+						"buffer_size": 235,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								156,
+								156
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
